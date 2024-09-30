@@ -19,7 +19,7 @@ function Home1() {
         />
         {/* <span className="ml-3 text-lg font-bold">CapyBara</span> */}
       </div>
-      <a href="https://t.me/Capybaratap2earn" className="text-white flex gap-4 items-center border rounded-xl py-1 px-3">
+      <a href="https://t.me/Capybaratap2earn" className="text-white flex gap-4 items-center border rounded-xl py-1 px-3 relative z-50">
       Play Game <FaTelegram className="mr-1 text-blue-400 text-xl" />
         
       </a>
@@ -41,7 +41,7 @@ function Home1() {
       {/* Play Button */}
       <a
         href="https://t.me/Capybaratap2earn"
-        className=" flex gap-3 items-center max-w-[400px] mx-auto  bg-white text-black py-3 px-8 rounded-lg text-lg font-medium mb-4"
+        className=" flex gap-3 items-center max-w-[400px] mx-auto  bg-white text-black py-3 px-8 rounded-lg text-lg font-medium mb-4 relative z-50"
       >
        <BsTelegram className=' text-4xl text-[#229ED9]'/> <strong>Start Playing </strong>   - 10% Referral
       </a>
