@@ -1,25 +1,26 @@
 
 import React from 'react'
+import { BsTelegram } from 'react-icons/bs';
 import { FaTelegram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 
 function Home1() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen  text-white relative">
     {/* Navbar */}
-    <nav className="  bg-gray-800">
+    <nav className="  ">
      <div className='max-w-7xl mx-auto  flex justify-between items-center px-4 py-3'>
      <div className="flex items-center">
         <img
-          src="https://via.placeholder.com/40"
+          src="logo1.png"
           alt="Logo"
-          className="h-10 w-10"
+          className=""
         />
-        <span className="ml-3 text-lg font-bold">CapyBara</span>
+        {/* <span className="ml-3 text-lg font-bold">CapyBara</span> */}
       </div>
-      <a href="#" className="text-blue-400 flex items-center">
-        <FaTelegram className="mr-1" />
-        Play Game
+      <a href="#" className="text-white flex gap-4 items-center border rounded-xl py-1 px-3">
+      Play Game <FaTelegram className="mr-1 text-blue-400 text-xl" />
+        
       </a>
      </div>
      
@@ -27,8 +28,11 @@ function Home1() {
     </nav>
 
     {/* Main Content */}
-    <div className="text-center py-16 px-4">
-      <h1 className="text-3xl md:text-5xl font-bold mb-4">Where Players Earn Automatically</h1>
+    <div className="text-center py-16 px-4 max-w-3xl mx-auto">
+      <h1 className=' text-4xl text-center font-normal'>
+      Where Players 
+      </h1>
+      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-[#E8483F]">Earn Automatically</h1>
       <p className="text-gray-400 text-lg mb-8">
         CapyBara is a fun and easy Tap to Earn game where players can earn a 10% commission on every tap, making it an enjoyable way to turn gameplay into real rewards.
       </p>
@@ -36,23 +40,23 @@ function Home1() {
       {/* Play Button */}
       <a
         href="#"
-        className="inline-block bg-blue-500 hover:bg-blue-600 text-white py-3 px-8 rounded-lg text-lg font-medium mb-4"
+        className=" flex gap-3 items-center max-w-[400px] mx-auto  bg-white text-black py-3 px-8 rounded-lg text-lg font-medium mb-4"
       >
-        Start Playing - 10% Referral
+       <BsTelegram className=' text-4xl text-[#229ED9]'/> <strong>Start Playing </strong>   - 10% Referral
       </a>
 
       {/* CapyBara Image */}
-      <div className="mt-10">
+
+    </div>
+    <div className="-mt-[17%] ">
         <img
-          src="https://via.placeholder.com/150"
+          src="coin.png"
           alt="CapyBara"
           className="mx-auto"
         />
       </div>
-    </div>
-
     {/* Footer */}
-    <footer className="text-center py-6 bg-gray-800">
+    <footer className="text-center flex justify-between max-w-7xl mx-auto py-6 relative">
       <div className="flex justify-center space-x-6 mb-4">
         <a href="#" className="text-gray-400">
           <FaTelegram size={30} />
@@ -66,6 +70,7 @@ function Home1() {
       </div>
       <p className="text-gray-500 text-sm">&copy; 2024 CapyBara Minister</p>
     </footer>
+    <img src="grad.png" alt="" className=' absolute bottom-0 right-0 left-0' />
   </div>
   )
 }
