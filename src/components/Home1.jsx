@@ -2,6 +2,7 @@
 import React from 'react'
 import { BsTelegram } from 'react-icons/bs';
 import { FaTelegram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa6';
 
 
 function Home1() {
@@ -18,7 +19,7 @@ function Home1() {
         />
         {/* <span className="ml-3 text-lg font-bold">CapyBara</span> */}
       </div>
-      <a href="#" className="text-white flex gap-4 items-center border rounded-xl py-1 px-3">
+      <a href="https://t.me/Capybaratap2earn" className="text-white flex gap-4 items-center border rounded-xl py-1 px-3">
       Play Game <FaTelegram className="mr-1 text-blue-400 text-xl" />
         
       </a>
@@ -39,7 +40,7 @@ function Home1() {
 
       {/* Play Button */}
       <a
-        href="#"
+        href="https://t.me/Capybaratap2earn"
         className=" flex gap-3 items-center max-w-[400px] mx-auto  bg-white text-black py-3 px-8 rounded-lg text-lg font-medium mb-4"
       >
        <BsTelegram className=' text-4xl text-[#229ED9]'/> <strong>Start Playing </strong>   - 10% Referral
@@ -58,13 +59,17 @@ function Home1() {
     {/* Footer */}
     <footer className="text-center flex justify-between  items-center flex-col sm:flex-row  max-w-max sm:max-w-7xl mx-auto py-2 relative z-30">
       <div className="flex justify-center space-x-6 ">
-        <a href="#" className=" text-white sm:text-black">
+        <a href="https://t.me/capybaraminister" className=" text-white sm:text-black">
           <FaTelegram size={30} />
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100057035216653&mibextid=LQQJ4d" className=" text-white sm:text-black">
+          <FaFacebook size={30} />
         </a>
         <a href="#" className="text-white sm:text-black">
           <FaTwitter size={30} />
         </a>
-        <a href="#" className="text-white sm:text-black">
+        <a href="https://www.youtube.com/@Capybaraminister" className="text-white sm:text-black">
           <FaYoutube size={30} />
         </a>
       </div>
