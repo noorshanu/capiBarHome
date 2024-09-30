@@ -56,19 +56,22 @@ function Home1() {
         />
       </div>
     {/* Footer */}
-    <footer className="text-center flex justify-between max-w-7xl mx-auto py-6 relative">
+    <footer className="text-center flex justify-between  items-end flex-col sm:flex-row max-w-7xl mx-auto py-2 relative z-30">
       <div className="flex justify-center space-x-6 mb-4">
-        <a href="#" className="text-gray-400">
+        <a href="#" className="text-black">
           <FaTelegram size={30} />
         </a>
-        <a href="#" className="text-gray-400">
+        <a href="#" className="text-black">
           <FaTwitter size={30} />
         </a>
-        <a href="#" className="text-gray-400">
+        <a href="#" className="text-black">
           <FaYoutube size={30} />
         </a>
       </div>
-      <p className="text-gray-500 text-sm">&copy; 2024 CapyBara Minister</p>
+      <p className='ext-black text-sm font-thin '>
+      Happy Players From All Over The World.
+      </p>
+      <p className="text-black text-sm">&copy; 2024 CapyBara Minister</p>
     </footer>
     <img src="grad.png" alt="" className=' absolute bottom-0 right-0 left-0' />
   </div>
